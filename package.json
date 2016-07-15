@@ -1,0 +1,32 @@
+{
+  "name": "mqtt-dasher",
+  "version": "0.1.0",
+  "description": "Notifies MQTT when an Amazon Dash button is pressed",
+  "main": "server.js",
+  "bin": {
+    "mqtt-dasher": "./bin/mqtt-dasher"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stjohnjohnson/mqtt-dasher.git"
+  },
+  "keywords": [
+    "mqtt",
+    "camera",
+    "ftp"
+  ],
+  "author": "St. John Johnson <st.john.johnson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stjohnjohnson/mqtt-dasher/issues"
+  },
+  "homepage": "https://github.com/stjohnjohnson/mqtt-dasher",
+  "dependencies": {
+    "async": "^2.0.0",
+    "js-yaml": "^3.6.1",
+    "mqtt": "^1.12.0",
+    "node-dash-button": "^0.5.0",
+    "request": "^2.73.0",
+    "winston": "^2.2.0"
+  }
+}

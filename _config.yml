@@ -1,0 +1,7 @@
+---
+mqtt:
+    # Specify your MQTT Broker's hostname or IP address here
+    host: mqtt
+
+buttons:
+    44:65:0d:dc:51:50: dash/nerf_supplies
