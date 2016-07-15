@@ -12,8 +12,9 @@
   },
   "keywords": [
     "mqtt",
-    "camera",
-    "ftp"
+    "dash",
+    "amazon",
+    "arp"
   ],
   "author": "St. John Johnson <st.john.johnson@gmail.com>",
   "license": "MIT",
