@@ -2,6 +2,10 @@
 mqtt:
     # Specify your MQTT Broker's hostname or IP address here
     host: mqtt
+    port: 1883
+    #leave empty if none
+    username:
+    password:
     # Preface for the topics $PREFACE/$TOPIC
     preface: dash
 
