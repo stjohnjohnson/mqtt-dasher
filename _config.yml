@@ -10,4 +10,4 @@ mqtt:
     preface: dash
 
 buttons:
-    44:65:0d:dc:51:50: nerf_supplies
+    44:65:0d:dc:51:50: dash/nerf_supplies

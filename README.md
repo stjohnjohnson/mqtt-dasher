@@ -33,13 +33,21 @@ _note: follow [this setup](https://github.com/hortinstein/node-dash-button#insta
 2. Configure your buttons
 
     ```
+    $ mkdir -p /opt/mqtt-dasher
+    $ cp _config.yml /opt/mqtt-dasher/config.yml
     $ vi /opt/mqtt-dasher/config.yml
     ```
 
-3. Run the server
+3. Add systemd unit for the service
 
     ```
-    $ CONFIG_DIR=/opt/mqtt-dasher mqtt-dasher
+    $ cp mqtt-dasher.service /etc/systemd/system
     ```
 
-4. Configured dash events now feed into MQTT
+4. Run the server
+
+    ```
+    $ systemctl start mqtt-dasher.service
+    ```
+
+5. Configured dash events now feed into MQTT

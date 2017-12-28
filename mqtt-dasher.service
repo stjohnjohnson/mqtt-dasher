@@ -1,0 +1,13 @@
+[Unit]
+Description=MQTT Dasher
+After=network.target
+
+[Service]
+Type=simple
+Environment=CONFIG_DIR=/opt/mqtt-dasher
+ExecStart=/usr/bin/mqtt-dasher
+
+[Install]
+WantedBy=multi-user.target
+
+
